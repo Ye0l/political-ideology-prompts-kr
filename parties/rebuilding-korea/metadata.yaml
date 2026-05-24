@@ -1,0 +1,153 @@
+name: "조국혁신당"
+slug: "rebuilding-korea"
+country: "KR"
+type: "political_party"
+last_checked: "2026-05-24"
+status: "active"
+
+basic_info:
+  official_name: "조국혁신당"
+  abbreviation: "혁신당"
+  english_name: "Rebuilding Korea Party"
+  founded: "2024-03-03"
+  predecessor_parties: []
+  history_notes:
+    - "2024년 3월 3일 창당, 22대 총선 비례대표 정당으로 첫 참여"
+    - "조국 전 법무부 장관이 창당 주도"
+  registration_status: "등록"
+  official_website: "https://rebuildingkoreaparty.kr/"
+  official_sns:
+    facebook: ""
+    twitter: ""
+    youtube: ""
+    instagram: ""
+
+leadership:
+  chair: "조국"
+  chair_since: "2025-11-23"  # 3대 당대표 선출 (전국당원대회)
+  floor_leader: "황운하"
+  floor_leader_since: ""  # 정확한 날짜 추가 확인 필요
+  leadership_last_checked: "2026-05-24"
+
+assembly:
+  term: 22
+  total_seats: 12
+  district_seats: 0
+  pr_seats: 12
+  negotiation_group: false  # 20석 미달
+  seats_last_checked: "2026-05-24"
+  note: "22대 총선(2024-04-10) 비례대표 전체 12석. 교섭단체 구성 기준(20석) 미달."
+
+ideology:
+  self_description:
+    - "검찰독재 종식"
+    - "민생경제 회복"
+    - "복지국가 실현 (제7공화국)"
+    - "사법 정의 회복"
+  commonly_described_as:
+    - "진보"
+    - "개혁진보"
+    - "검찰개혁 특화 정당"
+  core_values:
+    - "검찰개혁 및 사법 민주화"
+    - "민생경제 회복"
+    - "사회권 강화 (복지국가)"
+    - "제7공화국 건설"
+  spectrum:
+    economic: "중도좌"
+    social: "진보"
+    foreign_security: "비둘기파"
+    state_intervention: "높음"
+
+policy_summary:
+  economic_position: "민생경제 회복 중심. 중소기업·자영업 지원 강화, 대기업과 상생 촉진. 탄소중립 경제체제 대비 산업 전환 지원."
+  welfare_position: "사회권 강화, 복지국가 실현. 보편적 사회안전망 확충 지향."
+  labor_position: "노동권 보호. 플랫폼·비정규직 노동자 권리 강화."
+  housing_position: "공공주택 공급, 주거 안정 지원. 구체 정책 추가 확인 필요."
+  foreign_policy_position: "평화 외교 선호. 대북 강경보다 대화 우선."
+  security_position: "평화적 해결 우선. 군비 확장보다 외교 강조."
+  climate_energy_position: "탄소중립 경제체제 전환 추진. 재생에너지 확대."
+  digital_policy_position: "디지털 노동자 권리 보호. AI 규제 필요성 인식."
+  political_reform_position: "검찰 수사·기소 완전 분리, 검사장 직선제, 공수처 강화. 이선균법 제정 추진 (수사 과정 인권 보호)."
+  social_cultural_position: "사회적 약자 권리 보호. 언론 자유. 다양성 존중."
+  priority_policy_areas:
+    - "검찰·사법 개혁"
+    - "민생경제 회복"
+    - "복지국가 실현"
+    - "정치개혁·제7공화국"
+    - "사회권 강화"
+
+rhetoric:
+  tone:
+    - "개혁 의지"
+    - "사법 정의 강조"
+    - "민생 위기감"
+    - "저항·투쟁 언어"
+  frequent_keywords:
+    - "검찰독재"
+    - "사법 정의"
+    - "민생"
+    - "제7공화국"
+    - "개혁"
+    - "공수처"
+    - "수사·기소 분리"
+  preferred_frames:
+    - "검찰독재 종식"
+    - "사법 민주화"
+    - "민생 중심"
+  opponent_frames:
+    - "검찰독재 세력"
+    - "기득권 수구"
+    - "불공정 수사"
+
+support_base:
+  regions:
+    - "수도권 (비례정당으로 전국 분산)"
+    - "전라도 (일부)"
+  generations:
+    - "40~50대 (반검찰 정서 강한 층)"
+    - "30대 일부"
+  social_groups:
+    - "반검찰 개혁 지지층"
+    - "진보 성향 유권자"
+    - "더불어민주당 좌측 지지층 일부"
+
+sources:
+  official_party_site: "https://rebuildingkoreaparty.kr/"
+  official_platform: "https://rebuildingkoreaparty.kr/about/party-constitution-and-platform"
+  nec_policy_page: "https://policy.nec.go.kr/"
+  national_assembly_sources:
+    - "https://open.assembly.go.kr/portal/assm/assmPartyNegotiationPage.do"
+    - "https://ampos.nanet.go.kr/activityPartyDetail.do?party_no=0066"
+  media_sources:
+    - "https://ko.wikipedia.org/wiki/%EC%A1%B0%EA%B5%AD%ED%98%81%EC%8B%A0%EB%8B%B9"
+
+confidence:
+  basic_info: "high"
+  ideology: "high"
+  policy_positions: "medium"
+  rhetoric_style: "high"
+  support_base: "low"
+
+uncertainty:
+  high_confidence:
+    - "창당일 (2024-03-03)"
+    - "22대 총선 의석수 (12석, 비례)"
+    - "핵심 이념 (검찰개혁, 민생)"
+    - "당대표 조국 (2025-11-23 선출)"
+  medium_confidence:
+    - "원내대표 황운하 취임 날짜"
+    - "세부 정책 입장"
+  low_confidence:
+    - "세대별·지역별 지지율"
+    - "2026년 현재 의석수"
+  needs_verification:
+    - "황운하 원내대표 취임 날짜"
+    - "2026년 현재 의석수"
+    - "조국 사면복권 이후 당 입장 변화"
+
+update_notes:
+  - "2024-03-03: 창당. 22대 총선 비례 12석 획득."
+  - "2025-08-11: 조국 광복절 특별사면으로 사면복권."
+  - "2025-11-23: 조국, 제3대 당대표로 선출."
+  - "정당 역사가 짧아 입장 변화 추적이 제한적. 최신 자료 지속 확인 필요."
