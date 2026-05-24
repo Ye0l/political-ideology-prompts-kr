@@ -1,0 +1,165 @@
+name: "더불어민주당"
+slug: "minjoo"
+country: "KR"
+type: "political_party"
+last_checked: "2026-05-24"
+status: "active"
+
+basic_info:
+  official_name: "더불어민주당"
+  abbreviation: "민주당"
+  english_name: "Democratic Party of Korea"
+  founded: "2015-12-28"
+  predecessor_parties:
+    - "새정치민주연합 (2014~2015)"
+    - "민주당 (2013~2014)"
+    - "민주통합당 (2011~2013)"
+    - "민주당 (2007~2011)"
+    - "열린우리당 (2003~2007)"
+    - "새천년민주당 (2000~2007)"
+  history_notes:
+    - "2016년 국민의당 분당"
+    - "2020년 비례위성정당 '더불어시민당' 창당·합당"
+    - "2024년 총선 비례위성정당 '더불어민주연합' 창당·합당"
+  registration_status: "등록"
+  official_website: "https://theminjoo.kr/"
+  official_sns:
+    facebook: "https://www.facebook.com/theminjoo"
+    twitter: "https://twitter.com/TheMinjoo"
+    youtube: "https://www.youtube.com/@TheMinjoo"
+    instagram: "https://www.instagram.com/theminjoo_/"
+
+leadership:
+  chair: "정청래"
+  chair_since: "2025-08-01"  # 확인 필요: 전당대회 결과 기준
+  floor_leader: "한병도"
+  floor_leader_since: "2026-04-00"  # 연임 확정, 정확한 날짜 추가 확인 필요
+  leadership_last_checked: "2026-05-24"
+
+assembly:
+  term: 22
+  total_seats: 175
+  district_seats: 161
+  pr_seats: 14
+  negotiation_group: true
+  seats_last_checked: "2026-05-24"
+  note: "22대 총선(2024-04-10) 직후 더불어민주연합 합산 기준. 보궐선거·탈당으로 변동 가능."
+
+ideology:
+  self_description:
+    - "민주·평화·복지 국가 실현"
+    - "경제민주화"
+    - "기본사회"
+    - "노동존중사회"
+  commonly_described_as:
+    - "중도진보"
+    - "사회민주주의적 성향"
+    - "개혁적 자유주의"
+  core_values:
+    - "기본사회 (모든 시민의 기본적 삶 보장)"
+    - "경제민주화"
+    - "노동존중"
+    - "평화번영"
+    - "민주주의 수호"
+  spectrum:
+    economic: "중도좌"
+    social: "중도진보"
+    foreign_security: "중도"
+    state_intervention: "높음"
+
+policy_summary:
+  economic_position: "혁신성장과 경제민주화 병행. 재벌 개혁, 중소기업·자영업 지원 강화. 민간 투자 촉진과 공정한 분배를 함께 추구."
+  welfare_position: "기본사회 강령 채택. 보편복지 지향, 기본소득·기본금융·기본주거·기본돌봄 체계 구축 목표."
+  labor_position: "노동존중사회 표방. 주 4.5일 근무제 추진, 5인 미만 사업장 근로기준법 적용, 노동권 강화."
+  housing_position: "주거권을 기본권으로 규정. 실거주·실수요자 보호, 공공주택 공급 확대, 전세사기 피해자 지원."
+  foreign_policy_position: "한미동맹 유지, 대북 관여정책 선호, 남북 대화·교류 재개 지지. 다자외교 및 동북아 평화 강조."
+  security_position: "강력한 안보 유지하되 외교적 해결 우선. 핵 억지력 강화와 동시에 대화 채널 유지 지지."
+  climate_energy_position: "2050 탄소중립 목표 지지. 재생에너지 비중 확대, 원전은 안전 기준 충족 시 단계적 관리."
+  digital_policy_position: "AI·디지털 혁신 지원, 플랫폼 독점 규제, 디지털 노동자 권리 보호. 데이터 주권 강화."
+  political_reform_position: "검찰 권한 축소, 공수처 강화, 선거제도 개혁(비례성 강화), 지방분권 확대."
+  social_cultural_position: "언론 자유 강조, 역사 바로잡기(친일·독재 청산), 다문화 사회 포용, 차별금지 입법 추진."
+  priority_policy_areas:
+    - "민생경제 안정"
+    - "기본사회 구축"
+    - "노동권 강화"
+    - "검찰·사법개혁"
+    - "남북관계 및 평화 외교"
+
+rhetoric:
+  tone:
+    - "민생 중심"
+    - "개혁 의지"
+    - "도덕적 명분 강조"
+    - "시민 연대 호소"
+  frequent_keywords:
+    - "민생"
+    - "민주주의"
+    - "경제민주화"
+    - "기본사회"
+    - "노동존중"
+    - "개혁"
+    - "공정"
+    - "불평등 해소"
+    - "서민"
+  preferred_frames:
+    - "민생 대 기득권"
+    - "민주주의 수호"
+    - "경제 불평등 해소"
+    - "노동자 권리"
+  opponent_frames:
+    - "수구·기득권 세력"
+    - "검찰 권력 남용"
+    - "서민 외면 정책"
+
+support_base:
+  regions:
+    - "전라도 (강세)"
+    - "수도권 (경합)"
+    - "충청 (경합)"
+  generations:
+    - "40~50대 강세 (전통 지지층)"
+    - "20~30대 경합"
+  social_groups:
+    - "노동조합 조합원"
+    - "진보 성향 시민사회"
+    - "소상공인·자영업 일부"
+    - "전문직 중산층 일부"
+
+sources:
+  official_party_site: "https://theminjoo.kr/"
+  official_platform: "https://theminjoo.kr/main/sub/introduce/rule.php"
+  nec_policy_page: "https://policy.nec.go.kr/"
+  national_assembly_sources:
+    - "https://open.assembly.go.kr/portal/assm/assmPartyNegotiationPage.do"
+  media_sources:
+    - "https://news.imbc.com/news/2024/politics/article/6626264_36431.html"
+    - "https://www.labortoday.co.kr/news/articleView.html?idxno=220630"
+
+confidence:
+  basic_info: "high"
+  ideology: "high"
+  policy_positions: "medium"
+  rhetoric_style: "medium"
+  support_base: "medium"
+
+uncertainty:
+  high_confidence:
+    - "창당일, 전신 정당 이력"
+    - "22대 총선 의석수"
+    - "강령 핵심 가치 (공식 강령 기반)"
+  medium_confidence:
+    - "현 당대표 (정청래, 전당대회 이후 변동 가능)"
+    - "원내대표 (한병도, 연임 확인 필요)"
+    - "세부 정책 입장 (선거 공약 vs 실제 의정활동 차이 가능)"
+  low_confidence:
+    - "세대별·지역별 지지율 (여론조사 기준에 따라 다름)"
+  needs_verification:
+    - "2026년 현재 의석수 (보궐선거·탈당 반영 필요)"
+    - "정청래 당대표 취임 정확한 날짜"
+    - "한병도 원내대표 연임 날짜"
+
+update_notes:
+  - "2025-06-04: 이재명 대통령 취임으로 당대표직 공석. 정청래 신임 당대표 선출 (날짜 추가 확인 필요)."
+  - "2026-04: 한병도 원내대표 연임 확정."
+  - "정당명, 지도부, 의석수는 변동 가능성이 높으므로 업데이트 시 우선 확인할 것."
+  - "선거 직후 공약·정책 페이지가 변경될 수 있으므로 선거별 자료를 분리할 것."

@@ -1,0 +1,148 @@
+name: "노동당"
+slug: "labor"
+country: "KR"
+type: "political_party"
+last_checked: "2026-05-24"
+status: "active"
+
+basic_info:
+  official_name: "노동당"
+  abbreviation: "노동당"
+  english_name: "Labor Party"
+  founded: "2013-01-01"  # 정확한 날짜 추가 확인 필요
+  predecessor_parties:
+    - "진보신당 (2008~2012)"
+    - "민주노동당 일부 계파"
+  history_notes:
+    - "2012년 진보신당 해산 후 노동당 창당"
+    - "의석 없는 원외 정당으로 지속 활동"
+    - "2025: 정의당·녹색당과 '사회대전환 연대회의' 참여"
+  registration_status: "등록"
+  official_website: "https://laborparty.kr/"
+  official_sns:
+    facebook: ""
+    twitter: ""
+    youtube: ""
+    instagram: ""
+
+leadership:
+  chair: ""  # 추가 확인 필요
+  chair_since: ""
+  floor_leader: ""  # 원외 정당
+  floor_leader_since: ""
+  leadership_last_checked: "2026-05-24"
+
+assembly:
+  term: 22
+  total_seats: 0
+  district_seats: 0
+  pr_seats: 0
+  negotiation_group: false
+  seats_last_checked: "2026-05-24"
+  note: "원외 정당. 의석 없음."
+
+ideology:
+  self_description:
+    - "평등·생태·평화·연대"
+    - "노동해방"
+    - "사회주의적 대안"
+  commonly_described_as:
+    - "좌파"
+    - "사회주의"
+    - "민주사회주의"
+  core_values:
+    - "평등 (계급 평등)"
+    - "생태 (생태주의)"
+    - "평화 (반전·반군사)"
+    - "연대 (국제 연대)"
+    - "노동해방"
+  spectrum:
+    economic: "좌"
+    social: "진보"
+    foreign_security: "비둘기파"
+    state_intervention: "높음"
+
+policy_summary:
+  economic_position: "자본주의 극복 지향. 노동자 통제 경제. 재벌 해체. 공공소유 확대."
+  welfare_position: "보편복지. 무상 의료·교육·주거."
+  labor_position: "노동해방. 노동자 자주관리. 최저임금 대폭 인상. 비정규직 철폐."
+  housing_position: "주거권 완전 보장. 공공주택 확대."
+  foreign_policy_position: "반전·평화. 한미동맹 비판. 자주외교."
+  security_position: "탈군사화. 평화 체제. 주한미군 철수 주장."
+  climate_energy_position: "기후위기 긴급 대응. 탈핵·탈석탄. 체제 전환."
+  digital_policy_position: "플랫폼 노동자 권리. 디지털 공공성."
+  political_reform_position: "직접민주주의. 비례대표 강화. 소수 정당 보호."
+  social_cultural_position: "모든 형태의 차별 철폐. 성소수자 권리. 이주민 권리."
+  priority_policy_areas:
+    - "노동해방·비정규직 철폐"
+    - "생태전환·탈핵"
+    - "평화·반전"
+    - "보편복지"
+    - "차별 철폐"
+
+rhetoric:
+  tone:
+    - "계급 의식"
+    - "투쟁적 언어"
+    - "연대 호소"
+    - "체제 전환 강조"
+  frequent_keywords:
+    - "평등"
+    - "생태"
+    - "평화"
+    - "연대"
+    - "노동해방"
+    - "체제 전환"
+    - "비정규직 철폐"
+  preferred_frames:
+    - "자본 대 노동"
+    - "체제 전환"
+    - "국제 연대"
+  opponent_frames:
+    - "자본주의 체제"
+    - "군사주의"
+    - "신자유주의"
+
+support_base:
+  regions:
+    - "전국 (소수)"
+  generations:
+    - "좌파 성향 청년·활동가"
+  social_groups:
+    - "급진 좌파 운동 참여자"
+    - "노동운동 활동가 일부"
+    - "반전·평화 운동 참여자"
+
+sources:
+  official_party_site: "https://laborparty.kr/"
+  official_platform: ""  # 추가 확인 필요
+  nec_policy_page: "https://policy.nec.go.kr/"
+  national_assembly_sources: []
+  media_sources:
+    - "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%8F%99%EB%8B%B9_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)"
+
+confidence:
+  basic_info: "medium"
+  ideology: "high"
+  policy_positions: "medium"
+  rhetoric_style: "high"
+  support_base: "low"
+
+uncertainty:
+  high_confidence:
+    - "핵심 이념 (평등·생태·평화·연대)"
+    - "원외 정당"
+  medium_confidence:
+    - "세부 정책 입장"
+  low_confidence:
+    - "현재 당대표"
+    - "창당 정확한 날짜"
+  needs_verification:
+    - "현재 당대표 이름"
+    - "창당 날짜"
+    - "2025년 연대 활동 이후 방향"
+
+update_notes:
+  - "2012~2013: 진보신당 해산 후 노동당 창당."
+  - "2025: 정의당·녹색당과 '사회대전환 연대회의'. 대선 연대."
+  - "원외 정당으로 의석 없음."

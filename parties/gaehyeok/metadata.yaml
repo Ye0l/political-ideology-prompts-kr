@@ -1,0 +1,152 @@
+name: "개혁신당"
+slug: "gaehyeok"
+country: "KR"
+type: "political_party"
+last_checked: "2026-05-24"
+status: "active"
+
+basic_info:
+  official_name: "개혁신당"
+  abbreviation: "개혁신당"
+  english_name: "Reform Party"
+  founded: "2024-01-29"
+  predecessor_parties:
+    - "이준석 개인 창당 (국민의힘 출신)"
+  history_notes:
+    - "2024년 1월 이준석 전 국민의힘 대표 주도 창당"
+    - "22대 총선 지역구 1석(이준석, 경기 화성을) + 비례 2석"
+  registration_status: "등록"
+  official_website: "https://www.reformparty.kr/"
+  official_sns:
+    facebook: ""
+    twitter: ""
+    youtube: ""
+    instagram: ""
+
+leadership:
+  chair: "이준석"
+  chair_since: "2025-07-27"  # 3기 당대표 (98.22% 득표)
+  floor_leader: ""  # 추가 확인 필요
+  floor_leader_since: ""
+  leadership_last_checked: "2026-05-24"
+
+assembly:
+  term: 22
+  total_seats: 3
+  district_seats: 1
+  pr_seats: 2
+  negotiation_group: false
+  seats_last_checked: "2026-05-24"
+  note: "22대 총선 기준. 지역구 1석(이준석, 화성을), 비례 2석."
+
+ideology:
+  self_description:
+    - "개혁보수"
+    - "중도 실용"
+    - "문화적 자유주의"
+    - "능력주의·공정"
+  commonly_described_as:
+    - "중도"
+    - "개혁보수"
+    - "자유주의"
+  core_values:
+    - "능력주의와 공정"
+    - "세대 전환과 정치 혁신"
+    - "실용적 경제 개혁"
+    - "문화적 자유주의"
+  spectrum:
+    economic: "중도"
+    social: "중도"
+    foreign_security: "중도"
+    state_intervention: "중간"
+
+policy_summary:
+  economic_position: "시장유지세(AI·로봇 도입 대량 실직 대응), 소득세 개세주의 도입, 조세 형평성 강화."
+  welfare_position: "세대 통합 복지. 모든 세대 소외 없는 지속 가능 복지제도 구축."
+  labor_position: "공무원 노동 기본권 보장. AI·자동화 대응 노동 전환 지원."
+  housing_position: "추가 확인 필요."
+  foreign_policy_position: "추가 확인 필요 (중도적 접근 예상)."
+  security_position: "추가 확인 필요."
+  climate_energy_position: "추가 확인 필요."
+  digital_policy_position: "AI 기반 온라인 선거 시스템 구축. AI·디지털 혁신 강조."
+  political_reform_position: "정치 혁신, 세대 교체, 기성 양당 체제 비판. 영부인 제도 법제화."
+  social_cultural_position: "능력주의, 공정. 문화적 자유주의 성향. 이념보다 실용 강조."
+  priority_policy_areas:
+    - "세대 교체·정치 혁신"
+    - "조세·재정 개혁"
+    - "AI·디지털 혁신"
+    - "공정과 능력주의"
+    - "지방 균형 발전"
+
+rhetoric:
+  tone:
+    - "실용·합리"
+    - "세대 혁신"
+    - "공정·능력주의"
+    - "기성 정치 비판"
+  frequent_keywords:
+    - "공정"
+    - "능력주의"
+    - "실용"
+    - "세대 교체"
+    - "개혁"
+    - "기득권 타파"
+  preferred_frames:
+    - "양당 체제 혁파"
+    - "능력과 공정"
+    - "세대 전환"
+  opponent_frames:
+    - "기성 양당 기득권"
+    - "이념 과잉 정치"
+
+support_base:
+  regions:
+    - "수도권 (경합)"
+    - "특정 지역 기반 없음"
+  generations:
+    - "20~30대 일부"
+    - "정치관심도 높은 중산층"
+  social_groups:
+    - "중도 성향 유권자"
+    - "양당 체제 불만층"
+    - "이념보다 실용 중시 유권자"
+
+sources:
+  official_party_site: "https://www.reformparty.kr/"
+  official_platform: "https://www.reformparty.kr/sub/vision"
+  nec_policy_page: "https://policy.nec.go.kr/"
+  national_assembly_sources:
+    - "https://open.assembly.go.kr/portal/assm/assmPartyNegotiationPage.do"
+  media_sources:
+    - "https://namu.wiki/w/%EA%B0%9C%ED%98%81%EC%8B%A0%EB%8B%B9"
+    - "https://v.daum.net/v/20250727174103683"
+
+confidence:
+  basic_info: "high"
+  ideology: "medium"
+  policy_positions: "low"
+  rhetoric_style: "medium"
+  support_base: "low"
+
+uncertainty:
+  high_confidence:
+    - "창당일 (2024-01-29)"
+    - "22대 총선 의석수 (3석)"
+    - "이준석 당대표 (2025-07-27 재선출)"
+  medium_confidence:
+    - "핵심 이념 방향"
+    - "지지층 특성"
+  low_confidence:
+    - "세부 정책 입장 (많은 영역 추가 확인 필요)"
+    - "원내대표"
+    - "여러 정책 영역 구체 입장"
+  needs_verification:
+    - "원내대표 이름 및 취임 날짜"
+    - "2026년 현재 의석수"
+    - "외교안보, 부동산, 기후에너지 구체 정책"
+
+update_notes:
+  - "2024-01-29: 창당. 22대 총선 3석."
+  - "2025-07-27: 이준석 3기 당대표 선출 (득표율 98.22%)."
+  - "2026-05: 6·3 지방선거 준비 중. 이준석 총괄선거대책위원장."
+  - "신생 정당으로 정책 자료가 제한적. 지속적 업데이트 필요."

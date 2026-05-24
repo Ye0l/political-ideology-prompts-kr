@@ -1,0 +1,147 @@
+# party-metadata.schema.yaml
+# parties/{slug}/metadata.yaml 파일이 따라야 하는 스키마 정의
+# 모든 parties/*/metadata.yaml 파일은 이 스키마를 기반으로 작성합니다.
+
+# ---
+# 필수 필드 (required)
+# ---
+
+name: string                  # 정당 공식 명칭 (예: "더불어민주당")
+slug: string                  # 레포 내 식별자, 영문 소문자+하이픈 (예: "minjoo")
+country: "KR"                 # 고정값
+type: "political_party"       # 고정값
+last_checked: "YYYY-MM-DD"    # 마지막으로 정보를 검증한 날짜
+status: string                # "active" | "dissolved" | "merged" | "renamed"
+
+# ---
+# 기본 정보 (basic_info)
+# ---
+
+basic_info:
+  official_name: string         # 공식 정당명
+  abbreviation: string          # 약칭 (예: "민주당")
+  english_name: string          # 영문명
+  founded: "YYYY-MM-DD"         # 창당일 (현 당명 기준)
+  predecessor_parties: []       # 주요 전신 정당 목록
+  history_notes: []             # 합당·분당·개명 이력 (간략히)
+  registration_status: string   # 중앙선관위 등록 상태
+  official_website: string      # 공식 홈페이지 URL
+  official_sns:
+    facebook: string
+    twitter: string
+    youtube: string
+    instagram: string
+
+# ---
+# 현재 지도부 (leadership) — 변동 가능성이 높음
+# ---
+
+leadership:
+  chair: string                 # 당대표
+  chair_since: "YYYY-MM-DD"
+  floor_leader: string          # 원내대표
+  floor_leader_since: "YYYY-MM-DD"
+  leadership_last_checked: "YYYY-MM-DD"
+
+# ---
+# 의석 현황 (assembly) — 변동 가능성이 높음
+# ---
+
+assembly:
+  term: integer                 # 국회 대수 (예: 22)
+  total_seats: integer          # 현재 총 의석수
+  district_seats: integer       # 지역구 의석
+  pr_seats: integer             # 비례대표 의석
+  negotiation_group: boolean    # 교섭단체 여부 (20석 이상)
+  seats_last_checked: "YYYY-MM-DD"
+
+# ---
+# 이념 및 자기규정 (ideology)
+# ---
+
+ideology:
+  self_description: []          # 정당이 스스로 쓰는 정체성 표현
+  commonly_described_as: []     # 외부에서 사용하는 이념 라벨 (단정 아님)
+  core_values: []               # 강령 기반 핵심 가치
+  spectrum:
+    economic: string            # "좌" | "중도좌" | "중도" | "중도우" | "우"
+    social: string              # "진보" | "중도진보" | "중도" | "중도보수" | "보수"
+    foreign_security: string    # "비둘기파" | "중도" | "매파"
+    state_intervention: string  # "높음" | "중간" | "낮음"
+
+# ---
+# 정책 요약 (policy_summary)
+# ---
+
+policy_summary:
+  economic_position: string
+  welfare_position: string
+  labor_position: string
+  housing_position: string
+  foreign_policy_position: string
+  security_position: string
+  climate_energy_position: string
+  digital_policy_position: string
+  political_reform_position: string
+  social_cultural_position: string
+  priority_policy_areas: []     # 우선순위 높은 정책 영역 (최대 5개)
+
+# ---
+# 문체 분석 (rhetoric)
+# ---
+
+rhetoric:
+  tone: []                      # 문체 톤 키워드
+  frequent_keywords: []
+  preferred_frames: []
+  opponent_frames: []           # 반대 진영을 묘사하는 방식
+
+# ---
+# 지지 기반 (support_base)
+# ---
+
+support_base:
+  regions: []                   # 주요 지역 기반
+  generations: []               # 세대별 경향
+  social_groups: []             # 직업·계층별 경향
+
+# ---
+# 출처 (sources)
+# ---
+
+sources:
+  official_party_site: string
+  official_platform: string     # 강령 PDF 또는 URL
+  nec_policy_page: string       # 선관위 정책공약마당 URL
+  national_assembly_sources: []
+  media_sources: []
+
+# ---
+# 신뢰도 (confidence)
+# ---
+
+confidence:
+  basic_info: string            # "high" | "medium" | "low"
+  ideology: string
+  policy_positions: string
+  rhetoric_style: string
+  support_base: string
+
+# ---
+# 불확실 항목 (uncertainty)
+# ---
+
+uncertainty:
+  high_confidence: []
+  medium_confidence: []
+  low_confidence: []
+  needs_verification: []
+
+# ---
+# 업데이트 이력 (update_notes)
+# ---
+
+update_notes:
+  - "정당명, 지도부, 의석수는 변동 가능성이 높으므로 업데이트 시 우선 확인할 것."
+  - "선거 직후 공약·정책 페이지가 변경될 수 있으므로 선거별 자료를 분리할 것."
+  - "합당·분당·개명 이력이 있는 정당은 전신 정당의 입장과 현재 입장을 구분할 것."
