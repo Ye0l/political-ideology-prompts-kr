@@ -34,12 +34,12 @@ leadership:
 
 assembly:
   term: 22
-  total_seats: 4
-  district_seats: 1
+  total_seats: 3
+  district_seats: 0
   pr_seats: 3
   negotiation_group: false
   seats_last_checked: "2026-05-24"
-  note: "22대 총선 기준. 지역구 1석, 비례 3석. 권영국 대표는 2026년 서울시장 후보 출마 선언."
+  note: "2026-05 기준. 22대 총선 4석에서 탈당 반영. 지역구 의원 탈당으로 비례 3석만 유지 (추가 확인 필요)."
 
 ideology:
   self_description:
@@ -137,15 +137,15 @@ confidence:
 uncertainty:
   high_confidence:
     - "핵심 이념 (자주·평등·통일, 민중주권)"
-    - "22대 총선 의석수 (4석)"
   medium_confidence:
+    - "2026-05 현재 의석수 3석 (추가 확인 필요)"
     - "당대표 권영국 취임 날짜"
     - "세부 정책 입장"
   low_confidence:
-    - "2026년 현재 의석수"
     - "원내대표 정보"
   needs_verification:
-    - "권영국 대표 2026 서울시장 출마 시 당대표직 유지 여부"
+    - "지역구 의석 탈당 경위 및 현재 의원 명단"
+    - "권영국 대표 2026 서울시장 출마 이후 당대표직 유지 여부"
     - "원내대표 이름"
 
 update_notes:

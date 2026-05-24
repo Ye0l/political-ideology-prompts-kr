@@ -37,12 +37,12 @@ leadership:
 
 assembly:
   term: 22
-  total_seats: 108
-  district_seats: 90
+  total_seats: 107
+  district_seats: 89
   pr_seats: 18
   negotiation_group: true
   seats_last_checked: "2026-05-24"
-  note: "22대 총선(2024-04-10) 국민의힘+국민의미래 합산 기준. 보궐선거·탈당으로 변동 가능."
+  note: "2026-05 기준. 22대 총선 108석에서 탈당·보궐 반영. 재적 298석 기준."
 
 ideology:
   self_description:
@@ -145,11 +145,10 @@ confidence:
 uncertainty:
   high_confidence:
     - "창당 이력, 전신 정당"
-    - "22대 총선 의석수 (108석)"
     - "강령 핵심 가치 (자유민주주의, 시장경제)"
   medium_confidence:
+    - "2026-05 현재 의석수 107석 (탈당·보궐 반영)"
     - "현 당대표 장동혁 취임 정확한 날짜"
-    - "2026년 현재 의석수"
     - "당명 변경 여부 및 시기"
   low_confidence:
     - "세대별·지역별 지지율"
