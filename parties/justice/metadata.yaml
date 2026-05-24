@@ -1,0 +1,161 @@
+name: "정의당"
+slug: "justice"
+country: "KR"
+type: "political_party"
+last_checked: "2026-05-24"
+status: "active"
+
+basic_info:
+  official_name: "정의당"
+  abbreviation: "정의당"
+  english_name: "Justice Party"
+  founded: "2012-10-21"
+  predecessor_parties:
+    - "통합진보당 탈당파 (2012)"
+    - "민주노동당 (2000~2011)"
+  history_notes:
+    - "2012-10 창당 (통합진보당 탈당파 중심)"
+    - "2023: 녹색당과 합당해 '녹색정의당' 출범"
+    - "2024-04: 22대 총선 원외 전락. 녹색정의당에서 녹색당 이탈"
+    - "2024-04-27: 당명 '정의당'으로 환원"
+    - "2025-04: 노동당·녹색당과 '사회대전환 연대회의' 결성, 당명 '민주노동당'으로 임시 변경"
+    - "2025-06: 대선 후 당명 '정의당'으로 환원"
+  registration_status: "등록"
+  official_website: "https://www.justice21.org/"
+  official_sns:
+    facebook: ""
+    twitter: ""
+    youtube: ""
+    instagram: ""
+
+leadership:
+  chair: "권영국"
+  chair_since: "2024-05-28"  # 8기 대표 선출
+  floor_leader: ""  # 원외 정당으로 원내대표 없음
+  floor_leader_since: ""
+  leadership_last_checked: "2026-05-24"
+
+assembly:
+  term: 22
+  total_seats: 0
+  district_seats: 0
+  pr_seats: 0
+  negotiation_group: false
+  seats_last_checked: "2026-05-24"
+  note: "22대 총선(2024-04) 원외 전락. 비례 득표율 2.14%로 3% 기준 미충족."
+
+ideology:
+  self_description:
+    - "평등·연대·생태·평화"
+    - "노동·기후·젠더·소수자 의제"
+    - "사회민주주의 계승·발전"
+  commonly_described_as:
+    - "민주사회주의"
+    - "사회민주주의"
+    - "좌파"
+    - "진보"
+  core_values:
+    - "노동 (비정규직·취약 노동자 대표)"
+    - "생태 (기후위기 대응)"
+    - "젠더 평등·페미니즘"
+    - "소수자 권리"
+    - "평화"
+    - "연대"
+  spectrum:
+    economic: "좌"
+    social: "진보"
+    foreign_security: "비둘기파"
+    state_intervention: "높음"
+
+policy_summary:
+  economic_position: "재벌 개혁, 불평등 해소. 노동자 주도 경제민주화. 공공성 강화."
+  welfare_position: "보편복지. 무상 의료·교육·주거. 사회안전망 대폭 확충."
+  labor_position: "비정규직 정규직화. 최저임금 대폭 인상. 노동시간 단축. 노조 권리 강화."
+  housing_position: "주거권 보장. 공공임대 확대. 토지 공공성 강화."
+  foreign_policy_position: "자주 외교. 한미동맹 불평등 관계 개선. 비핵화 협상 우선."
+  security_position: "평화 지향. 군비 축소. 한반도 비핵화."
+  climate_energy_position: "기후위기 비상 선언. 탈석탄·탈핵. 재생에너지 100% 전환. 기후정의."
+  digital_policy_position: "플랫폼 노동자 권리 보호. AI·디지털 전환의 노동 영향 규제."
+  political_reform_position: "연동형 비례대표제. 소수 정당 보호. 직접민주주의 확대."
+  social_cultural_position: "차별금지법 제정. 성소수자 권리. 이민·다문화 포용. 페미니즘."
+  priority_policy_areas:
+    - "노동권·비정규직 철폐"
+    - "기후정의·생태전환"
+    - "젠더 평등·차별금지"
+    - "소수자 권리"
+    - "복지국가"
+
+rhetoric:
+  tone:
+    - "도덕적 진보"
+    - "연대의 언어"
+    - "변혁 의지"
+    - "피해자 중심"
+  frequent_keywords:
+    - "정의"
+    - "평등"
+    - "연대"
+    - "비정규직"
+    - "기후위기"
+    - "차별금지"
+    - "젠더"
+    - "소수자"
+  preferred_frames:
+    - "노동자·약자 편"
+    - "기후정의"
+    - "차별 없는 사회"
+    - "사회 대전환"
+  opponent_frames:
+    - "기득권 정치"
+    - "양당 체제의 한계"
+    - "불평등 심화 정책"
+
+support_base:
+  regions:
+    - "수도권 (비례 정당)"
+  generations:
+    - "20~40대 진보 성향"
+    - "여성 유권자 일부"
+  social_groups:
+    - "노동운동 참여자"
+    - "페미니즘 지지층"
+    - "기후·환경 운동 참여자"
+    - "성소수자·소수자 지지층"
+
+sources:
+  official_party_site: "https://www.justice21.org/"
+  official_platform: "https://www.justice21.org/newhome/about/info02.html"
+  nec_policy_page: "https://policy.nec.go.kr/"
+  national_assembly_sources: []
+  media_sources:
+    - "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%9D%98%EB%8B%B9_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)"
+
+confidence:
+  basic_info: "high"
+  ideology: "high"
+  policy_positions: "high"
+  rhetoric_style: "high"
+  support_base: "medium"
+
+uncertainty:
+  high_confidence:
+    - "창당일, 이념 (진보, 사회민주주의)"
+    - "22대 총선 원외 (의석 0)"
+    - "핵심 가치 (노동·생태·젠더·소수자)"
+    - "당대표 권영국 (8기)"
+  medium_confidence:
+    - "2025년 대선 연대 이후 당 정체성 변화"
+  low_confidence:
+    - "2026년 세부 활동 방향"
+  needs_verification:
+    - "2025년 대선 연대('사회대전환 연대회의') 이후 노동당·녹색당과의 관계"
+    - "2026년 지방선거 전략"
+
+update_notes:
+  - "2012-10-21: 창당."
+  - "2023: 녹색당과 합당 → 녹색정의당."
+  - "2024-04: 22대 총선 원외 전락 (득표율 2.14%)."
+  - "2024-04-27: 녹색당 이탈 후 당명 '정의당'으로 환원."
+  - "2024-05-28: 권영국 8기 당대표 선출."
+  - "2025-04: 노동당·녹색당과 '사회대전환 연대회의'. 당명 '민주노동당' 임시 사용."
+  - "2025-06: 대선 후 당명 '정의당' 환원."

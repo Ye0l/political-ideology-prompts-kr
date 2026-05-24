@@ -1,0 +1,155 @@
+name: "녹색당"
+slug: "greens"
+country: "KR"
+type: "political_party"
+last_checked: "2026-05-24"
+status: "active"
+
+basic_info:
+  official_name: "녹색당"
+  abbreviation: "녹색당"
+  english_name: "Green Party Korea"
+  founded: "2012-03-04"
+  predecessor_parties: []
+  history_notes:
+    - "2012년 창당"
+    - "2023: 정의당과 합당 → 녹색정의당"
+    - "2024-04: 22대 총선 후 녹색정의당 내 녹색당 출신 독자 탈당"
+    - "2024-04-27: 녹색당 독자 재건"
+    - "2025: 노동당·정의당과 '사회대전환 연대회의' 참여"
+  registration_status: "등록"
+  official_website: "https://www.kgreens.org/"
+  official_sns:
+    facebook: ""
+    twitter: ""
+    youtube: ""
+    instagram: ""
+
+leadership:
+  chair: ""  # 추가 확인 필요
+  chair_since: ""
+  floor_leader: ""  # 원외 정당
+  floor_leader_since: ""
+  leadership_last_checked: "2026-05-24"
+
+assembly:
+  term: 22
+  total_seats: 0
+  district_seats: 0
+  pr_seats: 0
+  negotiation_group: false
+  seats_last_checked: "2026-05-24"
+  note: "원외 정당. 22대 총선 당시 녹색정의당으로 참여했으나 의석 획득 실패."
+
+ideology:
+  self_description:
+    - "생태주의"
+    - "녹색 정치"
+    - "탈성장"
+    - "생명 존중"
+    - "반핵·탈핵"
+    - "평화"
+    - "직접민주주의"
+  commonly_described_as:
+    - "녹색 정치"
+    - "생태주의"
+    - "좌파 생태주의"
+  core_values:
+    - "생태 위기 대응"
+    - "탈성장·탈물신주의"
+    - "탈핵·재생에너지"
+    - "평화·비폭력"
+    - "직접민주주의"
+    - "생명 다양성"
+  spectrum:
+    economic: "좌"
+    social: "진보"
+    foreign_security: "비둘기파"
+    state_intervention: "중간 (탈성장 중심)"
+
+policy_summary:
+  economic_position: "탈성장. 성장·GDP 중심 경제에서 생태경제로 전환. 물신주의 극복."
+  welfare_position: "기본소득 지지. 사회 안전망. 돌봄 경제 강화."
+  labor_position: "노동시간 단축. 돌봄 노동 인정. 생태적 전환의 노동 보호."
+  housing_position: "토지 공공성. 공공임대 확대."
+  foreign_policy_position: "평화·비폭력. 군사 동맹 비판적 재검토."
+  security_position: "탈군사화. 평화 체제 구축. 비핵화."
+  climate_energy_position: "기후위기 최우선 과제. 탈석탄·탈핵 즉각 추진. 재생에너지 100%. 생태계 보호."
+  digital_policy_position: "디지털 전환의 생태적 영향 고려. 추가 확인 필요."
+  political_reform_position: "직접민주주의. 탈중앙화. 소수 정당 보호. 비례대표 강화."
+  social_cultural_position: "다양성 존중. 소수자 권리. 생명 윤리."
+  priority_policy_areas:
+    - "기후위기·생태 전환"
+    - "탈핵·재생에너지"
+    - "탈성장"
+    - "직접민주주의"
+    - "평화·비폭력"
+
+rhetoric:
+  tone:
+    - "생태적 위기 의식"
+    - "문명 전환 호소"
+    - "비폭력·평화"
+    - "생명 존중"
+  frequent_keywords:
+    - "생태"
+    - "탈성장"
+    - "탈핵"
+    - "기후위기"
+    - "녹색"
+    - "생명"
+    - "직접민주주의"
+    - "평화"
+  preferred_frames:
+    - "생태 문명 전환"
+    - "탈핵·재생에너지"
+    - "성장 신화 극복"
+  opponent_frames:
+    - "성장 지상주의"
+    - "핵 에너지 옹호"
+    - "군사주의"
+
+support_base:
+  regions:
+    - "전국 (비례 정당)"
+  generations:
+    - "20~30대 기후·환경 운동 참여층"
+  social_groups:
+    - "환경·기후 운동가"
+    - "생태주의 지지자"
+    - "탈핵 운동 참여자"
+
+sources:
+  official_party_site: "https://www.kgreens.org/"
+  official_platform: "https://www.kgreens.org/platform"
+  nec_policy_page: "https://policy.nec.go.kr/"
+  national_assembly_sources: []
+  media_sources:
+    - "https://ko.wikipedia.org/wiki/%EB%85%B9%EC%83%89%EB%8B%B9_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)"
+
+confidence:
+  basic_info: "high"
+  ideology: "high"
+  policy_positions: "medium"
+  rhetoric_style: "high"
+  support_base: "low"
+
+uncertainty:
+  high_confidence:
+    - "핵심 이념 (생태주의, 탈핵, 탈성장)"
+    - "원외 정당 (22대 총선 의석 0)"
+  medium_confidence:
+    - "세부 정책 입장"
+  low_confidence:
+    - "현재 당대표"
+    - "2026년 지방선거 전략"
+  needs_verification:
+    - "현재 당대표 이름"
+    - "2025년 사회대전환 연대회의 이후 당 방향"
+
+update_notes:
+  - "2012-03-04: 창당."
+  - "2023: 정의당과 합당 → 녹색정의당."
+  - "2024-04-27: 독자 재건 (녹색당 환원)."
+  - "2025: 노동당·정의당과 '사회대전환 연대회의' 참여, 대선 연대."
+  - "2026: 지방선거 녹색·진보정치 신호등 연대 추진."

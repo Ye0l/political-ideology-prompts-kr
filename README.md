@@ -40,7 +40,31 @@ political-ideology-prompts-kr/
 │   │   ├── research.md
 │   │   ├── prompt.md
 │   │   └── metadata.yaml
-│   └── gaehyeok/                     ← 개혁신당
+│   ├── gaehyeok/                     ← 개혁신당
+│   │   ├── research.md
+│   │   ├── prompt.md
+│   │   └── metadata.yaml
+│   ├── jinbo/                        ← 진보당
+│   │   ├── research.md
+│   │   ├── prompt.md
+│   │   └── metadata.yaml
+│   ├── basicincome/                  ← 기본소득당
+│   │   ├── research.md
+│   │   ├── prompt.md
+│   │   └── metadata.yaml
+│   ├── social-democrats/             ← 사회민주당
+│   │   ├── research.md
+│   │   ├── prompt.md
+│   │   └── metadata.yaml
+│   ├── justice/                      ← 정의당 (원외)
+│   │   ├── research.md
+│   │   ├── prompt.md
+│   │   └── metadata.yaml
+│   ├── greens/                       ← 녹색당 (원외)
+│   │   ├── research.md
+│   │   ├── prompt.md
+│   │   └── metadata.yaml
+│   └── labor/                        ← 노동당 (원외)
 │       ├── research.md
 │       ├── prompt.md
 │       └── metadata.yaml
@@ -52,14 +76,28 @@ political-ideology-prompts-kr/
 
 ## 포함된 정당 (2026년 5월 기준)
 
-| 정당명 | 슬러그 | 의석수 | 교섭단체 | 조사 기준일 |
-|--------|--------|--------|----------|-------------|
-| 더불어민주당 | `minjoo` | 175석 | O | 2026-05-24 |
-| 국민의힘 | `ppp` | 108석 | O | 2026-05-24 |
-| 조국혁신당 | `rebuilding-korea` | 12석 | X | 2026-05-24 |
-| 개혁신당 | `gaehyeok` | 3석 | X | 2026-05-24 |
+### 원내 정당
 
-> 의석수는 22대 총선(2024년 4월) 결과 기준이며, 보궐선거·탈당·입당으로 변동될 수 있습니다.
+| 정당명 | 슬러그 | 의석수 | 교섭단체 | 비고 |
+|--------|--------|--------|----------|------|
+| 더불어민주당 | `minjoo` | 175석 | O | 여당 (이재명 대통령) |
+| 국민의힘 | `ppp` | 108석 | O | 제1야당, 쇄신 기조 |
+| 조국혁신당 | `rebuilding-korea` | 12석 | X | 검찰개혁 특화 |
+| 개혁신당 | `gaehyeok` | 3석 | X | 이준석 대표, 중도 실용 |
+| 진보당 | `jinbo` | 4석 | X | 자주·평등·통일 |
+| 기본소득당 | `basicincome` | 1석 | X | 용혜인, 기본소득 특화 |
+| 사회민주당 | `social-democrats` | 1석 | X | 한창민, 사회민주주의 |
+
+### 원외 정당
+
+| 정당명 | 슬러그 | 의석수 | 비고 |
+|--------|--------|--------|------|
+| 정의당 | `justice` | 0석 | 노동·기후·젠더·소수자, 22대 원외 전락 |
+| 녹색당 | `greens` | 0석 | 생태주의·탈핵·탈성장 |
+| 노동당 | `labor` | 0석 | 평등·생태·평화·연대 |
+
+> 의석수는 22대 총선(2024년 4월) 결과 기준이며, 보궐선거·탈당·입당으로 변동될 수 있습니다.  
+> 교섭단체 구성 기준: 20석 이상.
 
 ---
 
